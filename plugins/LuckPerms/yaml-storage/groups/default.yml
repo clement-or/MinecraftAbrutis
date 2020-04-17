@@ -1,0 +1,13 @@
+name: default
+permissions:
+- essentials.hat.prevent-type.*:
+    value: false
+- chestcommands.open.dab.yml
+- chestcommands.open.deposit.yml
+- chestcommands.open.withdraw.yml
+- cytologicHorses.breed:
+    value: false
+- essentials.money:
+    value: false
+- essentials.pay:
+    value: false

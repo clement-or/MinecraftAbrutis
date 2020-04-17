@@ -1,0 +1,8 @@
+uuid: 1da148dd-853a-4c20-a701-bf0c8a1549e7
+name: logann45
+primary-group: default
+permissions:
+- worldedit.*
+parents:
+- citoyen
+- default

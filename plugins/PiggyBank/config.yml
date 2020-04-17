@@ -1,0 +1,96 @@
+# 
+# The Piggy Bank
+locale: fr_fr
+decimal_format: '#,##0'
+allow_item_use: false
+balance_maximum: 0
+withdraw_maximum: 186624
+fake_accounts: true
+resource_pack: false
+sql:
+  enabled: false
+  driver: mysql
+  host: 127.0.0.1
+  port: 3306
+  database: piggybank
+  use-ssl: true
+  username: piggybank
+  password: piggybank
+configVersion: 7
+currency:
+  wooden_coin:
+    item: minecraft:sunflower
+    name: '&61₽'
+    lore:
+    - Pièce de 1 Rouble
+    enchantments:
+    - unbreaking: 10
+    - knockback: 0
+    damage: 0
+    unbreakable: true
+    custom_model_data: 1
+    flags:
+    - HIDE_ATTRIBUTES
+    - HIDE_DESTROYS
+    - HIDE_ENCHANTS
+    - HIDE_PLACED_ON
+    - HIDE_POTION_EFFECTS
+    - HIDE_UNBREAKABLE
+    value: 1.0
+  stone_coin:
+    item: minecraft:sunflower
+    name: '&75₽'
+    lore:
+    - Pièce de 5 Roubles
+    enchantments:
+    - unbreaking: 10
+    - knockback: 0
+    damage: 0
+    unbreakable: true
+    custom_model_data: 2
+    flags:
+    - HIDE_ATTRIBUTES
+    - HIDE_DESTROYS
+    - HIDE_ENCHANTS
+    - HIDE_PLACED_ON
+    - HIDE_POTION_EFFECTS
+    - HIDE_UNBREAKABLE
+    value: 5.0
+  iron_coin:
+    item: minecraft:paper
+    name: '&f10₽'
+    lore:
+    - Billet de 10 Roubles
+    enchantments:
+    - unbreaking: 10
+    - knockback: 0
+    damage: 0
+    unbreakable: true
+    custom_model_data: 3
+    flags:
+    - HIDE_ATTRIBUTES
+    - HIDE_DESTROYS
+    - HIDE_ENCHANTS
+    - HIDE_PLACED_ON
+    - HIDE_POTION_EFFECTS
+    - HIDE_UNBREAKABLE
+    value: 10.0
+  gold_coin:
+    item: minecraft:paper
+    name: '&e50₽'
+    lore:
+    - Billet de 50 Roubles
+    enchantments:
+    - unbreaking: 10
+    - knockback: 0
+    damage: 0
+    unbreakable: true
+    custom_model_data: 4
+    flags:
+    - HIDE_ATTRIBUTES
+    - HIDE_DESTROYS
+    - HIDE_ENCHANTS
+    - HIDE_PLACED_ON
+    - HIDE_POTION_EFFECTS
+    - HIDE_UNBREAKABLE
+    value: 50.0

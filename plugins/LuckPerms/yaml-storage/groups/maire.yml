@@ -1,0 +1,11 @@
+name: maire
+permissions:
+- displayname.&4Secrétaire:
+    value: true
+    context:
+      server: général
+- images.command.*
+- displayname.Maire
+prefixes:
+- '&4Secrétaire Général':
+    priority: 1

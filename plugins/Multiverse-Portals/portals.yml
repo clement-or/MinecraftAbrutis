@@ -1,0 +1,41 @@
+portals:
+  creative:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Topychan
+    location: -1560.0,58.0,58.0:-1560.0,60.0,60.0
+    world: world
+    destination: p:survival
+  survival:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Topychan
+    location: 191.0,4.0,239.0:193.0,6.0,239.0
+    world: creative
+    destination: p:creative
+  creative2:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Topychan
+    location: -1551.0,58.0,59.0:-1551.0,59.0,59.0
+    world: world
+    destination: creative2
+  creative2_survival:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Topychan
+    location: -225.0,119.0,680.0:-225.0,120.0,680.0
+    world: creative2
+    destination: world

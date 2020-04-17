@@ -1,0 +1,22 @@
+lastAccountName: Hann_So
+timestamps:
+  login: 1586091270535
+  logout: 1586091512713
+  lastteleport: 1583360884075
+ipAddress: 82.64.15.215
+afk: false
+lastlocation:
+  world: world
+  x: -1582.4861710753503
+  y: 67.5
+  z: 35.304723162757114
+  yaw: -61.766525
+  pitch: 48.59968
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -1454.700000025332
+  y: 75.5625002
+  z: 124.29999997466803
+  yaw: -257.70343
+  pitch: 36.600063

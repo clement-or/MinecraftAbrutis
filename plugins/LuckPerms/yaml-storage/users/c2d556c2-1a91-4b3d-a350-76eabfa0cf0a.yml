@@ -1,0 +1,7 @@
+uuid: c2d556c2-1a91-4b3d-a350-76eabfa0cf0a
+name: Merifff
+primary-group: default
+parents:
+- citoyen
+- commercant
+- default

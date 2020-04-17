@@ -1,0 +1,15 @@
+name: commercant
+permissions:
+- shopchest.create:
+    value: true
+    context:
+      world: world
+- shopchest.remove:
+    value: true
+    context:
+      world: world
+parents:
+- citoyen
+prefixes:
+- '&bCommerçant':
+    priority: 2

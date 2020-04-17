@@ -1,0 +1,22 @@
+name: citoyen
+permissions:
+- shopchest.*:
+    value: false
+- coins.withdraw
+- cytologichorses.powertool
+- displayname.Citoyen
+- essentials.balance
+- essentials.nick
+- essentials.pay
+- images.command
+- images.command.create
+- images.command.delete
+- piggybank.balance:
+    value: false
+- shopchest.buy
+- shopchest.sell
+parents:
+- default
+prefixes:
+- '&cKamarad':
+    priority: 1

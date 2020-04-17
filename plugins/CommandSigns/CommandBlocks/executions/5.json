@@ -1,0 +1,21 @@
+{
+  "id": 5,
+  "addons": {
+    "ncs_cooldowns": {
+      "player_usages": [
+        {
+          "player_uuid": "31b35303-32d8-40d9-869c-fd150c89dd82",
+          "time": 1583077058511
+        },
+        {
+          "player_uuid": "6035cb05-411f-41b9-b638-0935f7405c3f",
+          "time": 1583099631854
+        },
+        {
+          "player_uuid": "58e7b73d-7d22-4dc2-93e4-ae1a617100c1",
+          "time": 1583164682110
+        }
+      ]
+    }
+  }
+}

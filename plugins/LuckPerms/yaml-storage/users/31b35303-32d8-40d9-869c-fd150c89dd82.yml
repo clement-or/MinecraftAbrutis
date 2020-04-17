@@ -1,0 +1,6 @@
+uuid: 31b35303-32d8-40d9-869c-fd150c89dd82
+name: Icy_Kookie
+primary-group: citoyen
+parents:
+- citoyen
+- commercant

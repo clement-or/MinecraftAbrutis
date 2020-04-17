@@ -1,0 +1,14 @@
+uuid: 967918a9-1609-4b90-9e85-a3ed7f1fa40e
+name: NeoNexus
+primary-group: default
+permissions:
+- essentials.msg
+- essentials.msh
+- essentials.r
+- images.command.create
+parents:
+- citoyen
+- default
+prefixes:
+- '&4Komissaire':
+    priority: 2

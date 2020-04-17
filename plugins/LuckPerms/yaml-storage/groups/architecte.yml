@@ -1,0 +1,23 @@
+name: architecte
+permissions:
+- worldedit.*:
+    value: true
+    context:
+      world: creative2
+- worldedit.*:
+    value: true
+    context:
+      world: creative
+- worldedit.*:
+    value: true
+    context:
+      world: cre
+- worldedit.butcher:
+    value: false
+prefixes:
+- '&2Architecte':
+    priority: 2
+    context:
+      server: '3'
+- '&2Architecte':
+    priority: 1

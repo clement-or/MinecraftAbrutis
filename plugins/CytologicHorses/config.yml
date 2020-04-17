@@ -1,0 +1,7 @@
+PowertoolEnabled: true
+Maximum-Jump-Height: 5.0
+Maximum-Health: 30.0
+Maximum-Speed: 14.5
+Modifier-Minimum: -0.05
+Modifier-Maximum: 0.1
+RequirePermissions: true

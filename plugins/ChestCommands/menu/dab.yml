@@ -1,0 +1,67 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&1Distributeur de billets'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 1
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+view:
+  COMMAND: 'op: balance'
+  NAME: 'Consulter vos comptes'
+  LORE: 
+    - 'Argent total : &c{money}&7.'
+  ID: ender_eye
+  POSITION-X: 4
+  POSITION-Y: 1
+ 
+withdraw:
+  COMMAND: 'console: cc open withdraw {player}'
+  NAME: 'Retirer'
+  ID: paper
+  POSITION-X: 5
+  POSITION-Y: 1 
+  KEEP-OPEN: true
+
+deposit:
+  COMMAND: 'console: cc open deposit {player}'
+  NAME: 'Déposer'
+  ID: chest
+  POSITION-X: 6
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+quit:
+  NAME: 'Quitter'
+  ID: barrier
+  POSITION-X: 9
+  POSITION-Y: 1

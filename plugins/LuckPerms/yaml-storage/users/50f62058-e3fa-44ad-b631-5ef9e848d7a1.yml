@@ -1,0 +1,6 @@
+uuid: 50f62058-e3fa-44ad-b631-5ef9e848d7a1
+name: Liagre
+primary-group: default
+parents:
+- citoyen
+- default

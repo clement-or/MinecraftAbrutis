@@ -1,0 +1,100 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&1Retirer de l''argent'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 1
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+w-1:
+  COMMAND: 'op: withdraw 1'
+  NAME: '1₽'
+  ID: 'sunflower, 1'
+  POSITION-X: 1
+  POSITION-Y: 1
+  KEEP-OPEN: true
+ 
+w-5:
+  COMMAND: 'op: withdraw 5'
+  NAME: '5₽'
+  ID: 'sunflower, 5'
+  POSITION-X: 2
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+w-10:
+  COMMAND: 'op: withdraw 10'
+  NAME: '10₽'
+  ID: 'sunflower, 10'
+  POSITION-X: 3
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+w-20:
+  COMMAND: 'op: withdraw 20'
+  NAME: '20₽'
+  ID: 'sunflower, 20'
+  POSITION-X: 4
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+w-50:
+  COMMAND: 'op: withdraw 50'
+  NAME: '50₽'
+  ID: 'sunflower, 50'
+  POSITION-X: 5
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+w-100:
+  COMMAND: 'op: withdraw 100'
+  NAME: '100₽'
+  ID: 'paper, 1'
+  POSITION-X: 6
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+w-1000:
+  COMMAND: 'op: withdraw 1000'
+  NAME: '1000₽'
+  ID: 'paper, 10'
+  POSITION-X: 7
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+quit:
+  COMMAND: 'console: cc open dab {player}'
+  NAME: 'Retour'
+  ID: barrier
+  POSITION-X: 9
+  POSITION-Y: 1
+  KEEP-OPEN: true

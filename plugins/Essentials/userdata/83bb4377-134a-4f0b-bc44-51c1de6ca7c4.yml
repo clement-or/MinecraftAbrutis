@@ -1,0 +1,23 @@
+afk: false
+money: '500'
+lastlocation:
+  world: world
+  x: -1532.8439896018108
+  y: 70.0
+  z: -52.60248468433041
+  yaw: -104.99921
+  pitch: 64.94972
+logoutlocation:
+  world: creative
+  x: 242.69999998807907
+  y: 8.0
+  z: 212.60313812405965
+  yaw: -270.08008
+  pitch: 73.64973
+timestamps:
+  logout: 1583448589867
+  login: 1583438808832
+  lastteleport: 1583441173678
+lastAccountName: Topychan
+ipAddress: 92.154.91.4
+nickname: Topy

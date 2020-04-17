@@ -1,0 +1,7 @@
+uuid: 6035cb05-411f-41b9-b638-0935f7405c3f
+name: Hann_So
+primary-group: default
+parents:
+- admin
+- citoyen
+- default
